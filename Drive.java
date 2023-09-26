@@ -103,6 +103,9 @@ public class Drive {
                     double prom = total / 5; 
 
                     System.out.println("El promedio general es de: " + prom);
+                    if(prom >= 90){
+                        System.out.println("Felicidades tienes un promedio general excelente");
+                    }
                     
                     System.out.println("-------------------------------------------");
                     if(pr1 >= 90){
